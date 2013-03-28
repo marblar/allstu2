@@ -1,13 +1,18 @@
-.avatar {
-    -moz-box-shadow: 0px 0px 0px 5px #fff; /* Firefox */
-    -webkit-box-shadow: 0px 0px 0px 5px #fff; /* Safari, Chrome */
-    box-shadow: 0px 0px 0px 5px #fff; /* CSS3 */
+.avatar-border {
+    -moz-box-shadow: 0px 0px 0px 5px rgb(0,0,0); /* Firefox */
+    -webkit-box-shadow: 0px 0px 0px 5px rgb(0,0,0); /* Safari, Chrome */
+    box-shadow: 0px 0px 0px 5px rgb(0,0,0); /* CSS3 */
     border-radius: 50%;
 }
 
 img.avatar {
+    .avatar-border;
     display: block-inline;
     margin: 10px 10px;
+}
+
+.thumbnail > img {
+    width: 325px;
 }
 
 div.social-media {
