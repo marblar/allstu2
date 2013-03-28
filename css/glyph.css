@@ -1,7 +1,7 @@
 .glyph {
   background-repeat: no-repeat;
   display: inline-block;
-  vertical-align: baseline;
+  vertical-align: text-bottom;
   line-height: 28px;
   margin: 2px;
 }
@@ -11,7 +11,7 @@
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
   .glyph-envelope {
     background-image: url('../img/glyphicons_010_envelope@2x.png');
-    background-size: 28px 28px;
+    background-size: 24px 16px;
   }
 }
 .glyph-search {
@@ -20,7 +20,7 @@
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
   .glyph-search {
     background-image: url('../img/glyphicons_027_search@2x.png');
-    background-size: 28px 28px;
+    background-size: 24px 24px;
   }
 }
 .glyph-stats {
@@ -29,7 +29,7 @@
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
   .glyph-stats {
     background-image: url('../img/glyphicons_040_stats@2x.png');
-    background-size: 28px 28px;
+    background-size: 26px 25px;
   }
 }
 .glyph-file {
@@ -38,7 +38,7 @@
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
   .glyph-file {
     background-image: url('../img/glyphicons_036_file@2x.png');
-    background-size: 28px 28px;
+    background-size: 19px 24px;
   }
 }
 .glyph-user {
@@ -47,6 +47,6 @@
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
   .glyph-user {
     background-image: url('../img/glyphicons_003_user@2x.png');
-    background-size: 28px 28px;
+    background-size: 23px 22px;
   }
 }
