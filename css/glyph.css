@@ -1,34 +1,52 @@
 .glyph {
-    background-repeat: no-repeat;
-    display: inline-block;
-    height: 28px;
-    line-height: 28px;
-    width: 28px;
-    vertical-align: text-bottom;
-    margin: 2px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: baseline;
+  line-height: 28px;
+  margin: 2px;
 }
-
 .glyph-envelope {
-    background-image: url("../img/glyphicons_010_envelope.png");
+  background-image: url('../img/glyphicons_010_envelope.png');
 }
-
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .glyph-envelope {
+    background-image: url('../img/glyphicons_010_envelope@2x.png');
+    background-size: 28px 28px;
+  }
+}
 .glyph-search {
-    background-image: url("../img/glyphicons_027_search.png");
+  background-image: url('../img/glyphicons_027_search.png');
 }
-
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .glyph-search {
+    background-image: url('../img/glyphicons_027_search@2x.png');
+    background-size: 28px 28px;
+  }
+}
 .glyph-stats {
-    background-image: url("../img/glyphicons_040_stats.png");
+  background-image: url('../img/glyphicons_040_stats.png');
 }
-
-.glyph-group {
-    background-image: url("../img/glyphicons_043_group.png");
-    width: 40px;
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .glyph-stats {
+    background-image: url('../img/glyphicons_040_stats@2x.png');
+    background-size: 28px 28px;
+  }
 }
-
 .glyph-file {
-    background-image: url("../img/glyphicons_036_file.png");
+  background-image: url('../img/glyphicons_036_file.png');
 }
-
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .glyph-file {
+    background-image: url('../img/glyphicons_036_file@2x.png');
+    background-size: 28px 28px;
+  }
+}
 .glyph-user {
-    background-image: url("../img/glyphicons_003_user.png");
+  background-image: url('../img/glyphicons_003_user.png');
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .glyph-user {
+    background-image: url('../img/glyphicons_003_user@2x.png');
+    background-size: 28px 28px;
+  }
 }

@@ -1,0 +1,37 @@
+.at2x(@path, @w: auto, @h: auto) {
+  background-image: url(@path);
+  @at2x_path: ~`"@{path}".split('.').slice(0, "@{path}".split('.').length - 1).join(".") + "@2x" + "." + "@{path}".split('.')["@{path}".split('.').length - 1]`;
+
+  @media all and (-webkit-min-device-pixel-ratio : 1.5) {
+    background-image: url(@at2x_path);
+    background-size: @w @h;
+  }  
+}
+
+.glyph {
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: baseline;
+    line-height: 28px;
+    margin: 2px;
+}
+
+.glyph-envelope {
+    .at2x('../img/glyphicons_010_envelope.png', 28px, 28px);
+}
+
+.glyph-search {
+    .at2x('../img/glyphicons_027_search.png', 28px, 28px);
+}
+
+.glyph-stats {
+    .at2x('../img/glyphicons_040_stats.png', 28px, 28px);
+}
+
+.glyph-file {
+    .at2x('../img/glyphicons_036_file.png', 28px, 28px);
+}
+
+.glyph-user {
+    .at2x('../img/glyphicons_003_user.png', 28px, 28px);
+}
