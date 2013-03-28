@@ -31,8 +31,12 @@ img.avatar {
 .thumbnail > img {
   width: 325px;
 }
+#thumbnails {
+  text-align: center;
+}
 div.social-media {
   text-align: center;
+  margin-top: 50px;
 }
 .container-narrow {
   margin: 0 auto;
@@ -43,7 +47,8 @@ div.social-media {
   margin-right: auto;
 }
 h2 {
-  line-height: 1.25;
+  font-size: 36px;
+  margin: 30px 0;
 }
 .banner {
   margin: 40px 0px;
@@ -52,11 +57,6 @@ h2 {
 h1 {
   font-size: 74px;
   line-height: 1.25;
-}
-h2 {
-  font-size: 36px;
-  margin: 30px 0;
-  text-align: center;
 }
 .statistics.well {
   margin: 0 50px;
