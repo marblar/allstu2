@@ -3,25 +3,25 @@ body {
   padding-bottom: 60px;
 }
 .avatar-border {
-  -moz-box-shadow: 0px 0px 0px 5px #000000;
+  -moz-box-shadow: 0px 0px 0px 5px #333333;
   /* Firefox */
 
-  -webkit-box-shadow: 0px 0px 0px 5px #000000;
+  -webkit-box-shadow: 0px 0px 0px 5px #333333;
   /* Safari, Chrome */
 
-  box-shadow: 0px 0px 0px 5px #000000;
+  box-shadow: 0px 0px 0px 5px #333333;
   /* CSS3 */
 
   border-radius: 50%;
 }
 img.avatar {
-  -moz-box-shadow: 0px 0px 0px 5px #000000;
+  -moz-box-shadow: 0px 0px 0px 5px #333333;
   /* Firefox */
 
-  -webkit-box-shadow: 0px 0px 0px 5px #000000;
+  -webkit-box-shadow: 0px 0px 0px 5px #333333;
   /* Safari, Chrome */
 
-  box-shadow: 0px 0px 0px 5px #000000;
+  box-shadow: 0px 0px 0px 5px #333333;
   /* CSS3 */
 
   border-radius: 50%;
