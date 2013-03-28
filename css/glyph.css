@@ -1,0 +1,30 @@
+.glyph {
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 28px;
+    line-height: 28px;
+    width: 28px;
+    vertical-align: text-bottom;
+    margin: 2px;
+}
+
+.glyph-envelope {
+    background-image: url("../img/glyphicons_010_envelope.png");
+}
+
+.glyph-search {
+    background-image: url("../img/glyphicons_027_search.png");
+}
+
+.glyph-stats {
+    background-image: url("../img/glyphicons_040_stats.png");
+}
+
+.glyph-group {
+    background-image: url("../img/glyphicons_043_group.png");
+    width: 40px;
+}
+
+.glyph-file {
+    background-image: url("../img/glyphicons_036_file.png");
+}
