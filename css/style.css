@@ -72,6 +72,9 @@ div.social-media {
   background-color: #fff;
   max-width: 700px;
 }
+h1 {
+  line-height: 1.25;
+}
 h2 {
   font-size: 36px;
   margin: 30px 0;
