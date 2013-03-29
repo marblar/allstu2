@@ -73,6 +73,7 @@ div.social-media {
   max-width: 700px;
 }
 h1 {
+  text-align: center;
   line-height: 1.25;
 }
 h2 {
@@ -84,8 +85,8 @@ h2 {
   text-align: center;
 }
 h1 {
-  font-size: 74px;
-  margin: 35px;
+  font-size: 70px;
+  padding-bottom: 35px;
 }
 p.statistics {
   font-size: 28px;
