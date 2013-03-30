@@ -1,44 +1,18 @@
 body {
   padding-bottom: 50px;
   background-color: #00507b;
-  /* IE10 Consumer Preview */
-
-  background-image: -ms-radial-gradient(center, ellipse farthest-corner, #00507b 0%, #00507b 50%, #333333 100%);
-  /* Mozilla Firefox */
-
-  background-image: -moz-radial-gradient(center, ellipse farthest-corner, #00507b 0%, #00507b 50%, #333333 100%);
-  /* Opera */
-
-  background-image: -o-radial-gradient(center, ellipse farthest-corner, #00507b 0%, #00507b 50%, #333333 100%);
-  /* Webkit (Safari/Chrome 10) */
-
-  background-image: -webkit-gradient(radial, center center, 0, center center, 497, color-stop(0, #00507b), color-stop(0.5, #00507b), color-stop(1, #333333));
-  /* Webkit (Chrome 11+) */
-
-  background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #00507b 0%, #00507b 50%, #333333 100%);
-  /* W3C Markup, IE10 Release Preview */
-
-  background-image: radial-gradient(ellipse farthest-corner at center, #00507b 0%, #00507b 50%, #333333 100%);
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB2aWV3Qm94PSIwIDAgMSAxIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmFkaWFsR3JhZGllbnQgaWQ9ImdyYWQtdWNnZy1nZW5lcmF0ZWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiBjeD0iNTAlIiBjeT0iNTAlIiByPSI3NSUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMwMDUwN0IiIHN0b3Atb3BhY2l0eT0iMSIvPjxzdG9wIG9mZnNldD0iNDUlIiBzdG9wLWNvbG9yPSIjMDA1MDdCIiBzdG9wLW9wYWNpdHk9IjEiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzMzMzMzMiIHN0b3Atb3BhY2l0eT0iMSIvPjwvcmFkaWFsR3JhZGllbnQ+PHJlY3QgeD0iLTUwIiB5PSItNTAiIHdpZHRoPSIxMDEiIGhlaWdodD0iMTAxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPjwvc3ZnPg==);
+  background-image: -moz-radial-gradient(center, ellipse farthest-corner, #00507B 0%, #00507B 45%, #333333 100%);
+  background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #00507B 0%, #00507B 45%, #333333 100%);
+  background-image: -o-radial-gradient(center, ellipse farthest-corner, #00507B 0%, #00507B 45%, #333333 100%);
+  background-image: radial-gradient(ellipse farthest-corner at center, #00507B 0%, #00507B 45%, #333333 100%);
 }
 .background-shadow {
-  /* IE10 Consumer Preview */
-
-  background-image: -ms-radial-gradient(center, ellipse farthest-corner, #00507b 0%, #00507b 50%, #333333 100%);
-  /* Mozilla Firefox */
-
-  background-image: -moz-radial-gradient(center, ellipse farthest-corner, #00507b 0%, #00507b 50%, #333333 100%);
-  /* Opera */
-
-  background-image: -o-radial-gradient(center, ellipse farthest-corner, #00507b 0%, #00507b 50%, #333333 100%);
-  /* Webkit (Safari/Chrome 10) */
-
-  background-image: -webkit-gradient(radial, center center, 0, center center, 497, color-stop(0, #00507b), color-stop(0.5, #00507b), color-stop(1, #333333));
-  /* Webkit (Chrome 11+) */
-
-  background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #00507b 0%, #00507b 50%, #333333 100%);
-  /* W3C Markup, IE10 Release Preview */
-
-  background-image: radial-gradient(ellipse farthest-corner at center, #00507b 0%, #00507b 50%, #333333 100%);
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB2aWV3Qm94PSIwIDAgMSAxIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIj48cmFkaWFsR3JhZGllbnQgaWQ9ImdyYWQtdWNnZy1nZW5lcmF0ZWQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiBjeD0iNTAlIiBjeT0iNTAlIiByPSI3NSUiPjxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMwMDUwN0IiIHN0b3Atb3BhY2l0eT0iMSIvPjxzdG9wIG9mZnNldD0iNDUlIiBzdG9wLWNvbG9yPSIjMDA1MDdCIiBzdG9wLW9wYWNpdHk9IjEiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMzMzMzMzMiIHN0b3Atb3BhY2l0eT0iMSIvPjwvcmFkaWFsR3JhZGllbnQ+PHJlY3QgeD0iLTUwIiB5PSItNTAiIHdpZHRoPSIxMDEiIGhlaWdodD0iMTAxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPjwvc3ZnPg==);
+  background-image: -moz-radial-gradient(center, ellipse farthest-corner, #00507B 0%, #00507B 45%, #333333 100%);
+  background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #00507B 0%, #00507B 45%, #333333 100%);
+  background-image: -o-radial-gradient(center, ellipse farthest-corner, #00507B 0%, #00507B 45%, #333333 100%);
+  background-image: radial-gradient(ellipse farthest-corner at center, #00507B 0%, #00507B 45%, #333333 100%);
 }
 .avatar-border {
   border-radius: 50%;
