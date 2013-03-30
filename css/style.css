@@ -33,9 +33,6 @@ img.avatar {
   display: block-inline;
   margin: 20px;
 }
-.thumbnail > img {
-  max-width: 300px;
-}
 #thumbnails {
   text-align: center;
 }
